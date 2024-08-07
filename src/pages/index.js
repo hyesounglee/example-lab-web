@@ -20,7 +20,7 @@ const Home = () => {
     }; 
 
     function changePage() {
-        routerCore.goPage('/example/test01', {text: 'index에서 왔습니다.'});
+        routerCore.goPage('/example/BaseExample', {text: 'index에서 왔습니다.'});
     }
 
     useEffect(() => {
@@ -38,8 +38,8 @@ const Home = () => {
                 <button onClick={changeButton}>{buttonText} : {buttonCount}</button>
             </div>
             <div>
-                화면 이동
-                <button onClick={changePage}>클릭</button>
+                BaseExample
+                <button onClick={changePage}>이동</button>
             </div>
         </>
     );
